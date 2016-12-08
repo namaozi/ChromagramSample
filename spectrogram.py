@@ -14,7 +14,7 @@ import functions as fn
 # data : ここにwavデータがnumpy.ndarrayとして保持されます。
 # sampling_rate : 大半のwav音源のサンプリングレートは44.1kHzです
 # fmt : フォーマットはだいたいPCMでしょう
-file_path = "audios/harmony3.wav"
+file_path = "audios/harmony1.wav"
 data, sampling_rate, fmt = al.wavread(file_path)
 
 # ステレオファイルをモノラル化します
