@@ -14,4 +14,4 @@ eeic advent calendar 2016 9日目の記事 [その1](http://qiita.com/akiyoshiak
 `python chordestimation.py`
 
 #### その他
-何かあれば[@_akiyoshiaki](https://twitter.com/_akiyoshiaki_)までご連絡ください。
+何かあれば[@_akiyoshiaki_](https://twitter.com/_akiyoshiaki_)までご連絡ください。
