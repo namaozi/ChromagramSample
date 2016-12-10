@@ -96,7 +96,7 @@ axis_x = np.arange(0, 16, 2)
 bar_width = 0.07
 colors = ["#ff9999", "#ffaf95","#fabb92","#ffd698","#fae991","#c1fc97","#97fac8","#96f9f5","#98e1fb","#9cb2ff","#b79bfe","#fa96f9", "#b36a6a", "#ab7361","#aa7d61","#ad9165","#b4a765","#8ab66b","#6ab48f","#68b0ad","#689fb3","#6979b0","#7462a3","#aa62a9"]
 for i, (name, vector) in enumerate(chord_dic.iteritems()):
-    plt.bar(axis_x + bar_width * i, result[i], color=colors[i], width = bar_width, label = name, align = "center")
+    plt.bar(axis_x - ((axis_x[1] - axis_x[0]) * 0.45) + bar_width * i, result[i], color=colors[i], width = bar_width, label = name, align = "center")
 
 plt.legend()
 plt.xticks(axis_x + bar_width / 24)
